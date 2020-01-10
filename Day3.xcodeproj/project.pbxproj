@@ -13,6 +13,8 @@
 		0426868B23C912C5000B4882 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0426868923C912C5000B4882 /* Main.storyboard */; };
 		0426868D23C912C5000B4882 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0426868C23C912C5000B4882 /* Assets.xcassets */; };
 		0426869023C912C5000B4882 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0426868E23C912C5000B4882 /* LaunchScreen.storyboard */; };
+		0426869A23C914D8000B4882 /* Places.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0426869923C914D8000B4882 /* Places.plist */; };
+		0426869C23C91506000B4882 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426869B23C91506000B4882 /* Place.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		0426868C23C912C5000B4882 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0426868F23C912C5000B4882 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0426869123C912C5000B4882 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0426869923C914D8000B4882 /* Places.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Places.plist; sourceTree = "<group>"; };
+		0426869B23C91506000B4882 /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 			children = (
 				0426868323C912C5000B4882 /* AppDelegate.swift */,
 				0426868523C912C5000B4882 /* SceneDelegate.swift */,
+				0426869B23C91506000B4882 /* Place.swift */,
 				0426868723C912C5000B4882 /* ViewController.swift */,
 				0426868923C912C5000B4882 /* Main.storyboard */,
 				0426868C23C912C5000B4882 /* Assets.xcassets */,
 				0426868E23C912C5000B4882 /* LaunchScreen.storyboard */,
 				0426869123C912C5000B4882 /* Info.plist */,
+				0426869923C914D8000B4882 /* Places.plist */,
 			);
 			path = Day3;
 			sourceTree = "<group>";
@@ -127,6 +133,7 @@
 			files = (
 				0426869023C912C5000B4882 /* LaunchScreen.storyboard in Resources */,
 				0426868D23C912C5000B4882 /* Assets.xcassets in Resources */,
+				0426869A23C914D8000B4882 /* Places.plist in Resources */,
 				0426868B23C912C5000B4882 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0426868823C912C5000B4882 /* ViewController.swift in Sources */,
+				0426869C23C91506000B4882 /* Place.swift in Sources */,
 				0426868423C912C5000B4882 /* AppDelegate.swift in Sources */,
 				0426868623C912C5000B4882 /* SceneDelegate.swift in Sources */,
 			);
